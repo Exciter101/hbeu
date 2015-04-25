@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PBProfile>
+  <Custom Code="Lua.DoString(&quot;SetCVar(\&quot;AutoLootDefault\&quot;, 1)&quot;);" />
+  <If Condition="InbagCount(116817) &lt; 5" IgnoreCanRun="True">
+    <CustomAction Code="Log(Colors.YellowGreen,&quot;On your way to fish Blackwater Whiptail Lunkers&quot;); " />
+  <MoveTo Location="2201.815, 1515.484, 107.5642" MoveType="Location" Pathing="Navigator" Entry="0" />
+  </If>
+    <While Condition="InbagCount(116817) &lt; 5" IgnoreCanRun="True">
+     <If Condition="!Me.HasAura(&quot;Blackwater Whiptail Bait&quot;)" IgnoreCanRun="True">
+     <Custom Code="Lua.DoString(&quot;UseItemByName(110294)&quot;);" />
+     <ChangeBotAction BotName="AutoAngler" />
+     </If>
+    </While>
+    <If Condition="InbagCount(116817) &lt; 5" IgnoreCanRun="True">
+     <MoveTo MoveType="NearestFlight" />
+   </If>
+    <If Condition="TreeRoot.Current.Name != &quot;Questing&quot;" IgnoreCanRun="True">
+      <ChangeBot BotName="Questing" />
+    <LoadProfileAction ProfileType="Honorbuddy" Path="FP to Exile's Rise, Shadowmoon Valley.xml" /> 
+    </If>
+</PBProfile>

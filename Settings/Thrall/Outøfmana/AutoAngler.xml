@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutoAnglerSettings>
+  <LastLoadedProfile>C:\MP780EU\Default Profiles\H[PB + AA] Lunker Fishing Ver. 1.7.2\1 [PB + AA] Fire Ammonite Lunker Fishing.xml</LastLoadedProfile>
+  <LootNPCs>False</LootNPCs>
+  <Hat>118894</Hat>
+  <MainHand>113607</MainHand>
+  <OffHand>118852</OffHand>
+  <AbyssalGulperEelBait>True</AbyssalGulperEelBait>
+  <FireAmmoniteBait>True</FireAmmoniteBait>
+  <BlindLakeSturgeonBait>True</BlindLakeSturgeonBait>
+  <SeaScorpionBait>False</SeaScorpionBait>
+  <JawlessSkulkerBait>False</JawlessSkulkerBait>
+  <FatSleeperBait>True</FatSleeperBait>
+  <BlackwaterWhiptailBait>False</BlackwaterWhiptailBait>
+  <IcespineStingerBait>False</IcespineStingerBait>
+  <MoonshellClawBait>False</MoonshellClawBait>
+  <KaarpHuyarp>True</KaarpHuyarp>
+  <KaarpDelay>10</KaarpDelay>
+  <Poolfishing>False</Poolfishing>
+  <Fly>False</Fly>
+  <UseWaterWalking>False</UseWaterWalking>
+  <AvoidLava>False</AvoidLava>
+  <NinjaNodes>True</NinjaNodes>
+  <MaxTimeAtPool>5</MaxTimeAtPool>
+  <MaxFailedCasts>15</MaxFailedCasts>
+  <PathPrecision>15</PathPrecision>
+  <TraceStep>40</TraceStep>
+  <PoolRangeStep>5</PoolRangeStep>
+</AutoAnglerSettings>

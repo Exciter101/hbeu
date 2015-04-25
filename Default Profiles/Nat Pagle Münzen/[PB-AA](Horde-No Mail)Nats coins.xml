@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PBProfile>
+  <!--Intro-->
+  <Custom Code="Lua.DoString(&quot;SetCVar(\&quot;AutoLootDefault\&quot;, 1)&quot;);" />
+  <While PulseSecondaryBot="True" Condition="true" IgnoreCanRun="True">
+    <If Condition="InbagCount(116819) &lt; 5" IgnoreCanRun="True">
+      <Custom Code="Log(Colors.YellowGreen,&quot;Getting some Fire Ammonite Lunkers!&quot;); " />
+      <FlyTo Dismount="True" Location="5837.013, 4302.386, 110.4765" />
+      <MoveTo Location="5824.827, 4316.867, 112.4863" MoveType="Location" Pathing="ClickToMove" Entry="0" />
+      <While PulseSecondaryBot="True" Condition="InbagCount(116819) &lt; 5" IgnoreCanRun="True">
+        <ChangeBot BotName="AutoAngler" />
+      </While>
+    </If>
+    <FlyTo Dismount="True" Location="5837.013, 4302.386, 110.4765" />
+    <MoveTo Location="0, 0, 0" MoveType="NpcByID" Pathing="Navigator" Entry="85984" />
+    <Interact InteractType="NPC" Entry="85984" InteractDelay="0" GameObjectType="WorldObject" SpellFocus="Anvil" />
+    <Wait Condition="false" Timeout="1000" />
+    <Custom Code="Lua.DoString(&quot;RunMacroText(\&quot;/script SelectGossipAvailableQuest(1)\&quot;)&quot;);" />
+    <Wait Condition="false" Timeout="1000" />
+    <Custom Code="Lua.DoString(&quot;RunMacroText(\&quot;/script CompleteQuest()\&quot;)&quot;);" />
+    <Wait Condition="false" Timeout="1000" />
+    <Custom Code="Lua.DoString(&quot;RunMacroText(\&quot;/script GetQuestReward()\&quot;)&quot;);" />
+    <Wait Condition="false" Timeout="1000" />
+    <Interact InteractType="NPC" Entry="85984" InteractDelay="0" GameObjectType="WorldObject" SpellFocus="Anvil" />
+    <Wait Condition="false" Timeout="1000" />
+    <Custom Code="Lua.DoString(&quot;RunMacroText(\&quot;/script SelectGossipAvailableQuest(1)\&quot;)&quot;);" />
+    <Wait Condition="false" Timeout="1000" />
+    <Custom Code="Lua.DoString(&quot;RunMacroText(\&quot;/script CompleteQuest()\&quot;)&quot;);" />
+    <Wait Condition="false" Timeout="1000" />
+    <Custom Code="Lua.DoString(&quot;RunMacroText(\&quot;/script GetQuestReward()\&quot;)&quot;);" />
+    <Wait Condition="false" Timeout="1000" />
+    <Interact InteractType="NPC" Entry="85984" InteractDelay="0" GameObjectType="WorldObject" SpellFocus="Anvil" />
+    <Wait Condition="false" Timeout="1000" />
+    <Custom Code="Lua.DoString(&quot;RunMacroText(\&quot;/script SelectGossipAvailableQuest(1)\&quot;)&quot;);" />
+    <Wait Condition="false" Timeout="1000" />
+    <Custom Code="Lua.DoString(&quot;RunMacroText(\&quot;/script CompleteQuest()\&quot;)&quot;);" />
+    <Wait Condition="false" Timeout="1000" />
+    <Custom Code="Lua.DoString(&quot;RunMacroText(\&quot;/script GetQuestReward()\&quot;)&quot;);" />
+    <Wait Condition="false" Timeout="1000" />
+    <Interact InteractType="NPC" Entry="85984" InteractDelay="0" GameObjectType="WorldObject" SpellFocus="Anvil" />
+    <Wait Condition="false" Timeout="1000" />
+    <Custom Code="Lua.DoString(&quot;RunMacroText(\&quot;/script SelectGossipAvailableQuest(1)\&quot;)&quot;);" />
+    <Wait Condition="false" Timeout="1000" />
+    <Custom Code="Lua.DoString(&quot;RunMacroText(\&quot;/script CompleteQuest()\&quot;)&quot;);" />
+    <Wait Condition="false" Timeout="1000" />
+    <Custom Code="Lua.DoString(&quot;RunMacroText(\&quot;/script GetQuestReward()\&quot;)&quot;);" />
+    <Wait Condition="false" Timeout="1000" />
+    <Interact InteractType="NPC" Entry="85984" InteractDelay="0" GameObjectType="WorldObject" SpellFocus="Anvil" />
+    <Wait Condition="false" Timeout="1000" />
+    <Custom Code="Lua.DoString(&quot;RunMacroText(\&quot;/script SelectGossipAvailableQuest(1)\&quot;)&quot;);" />
+    <Wait Condition="false" Timeout="1000" />
+    <Custom Code="Lua.DoString(&quot;RunMacroText(\&quot;/script CompleteQuest()\&quot;)&quot;);" />
+    <Wait Condition="false" Timeout="1000" />
+    <Custom Code="Lua.DoString(&quot;RunMacroText(\&quot;/script GetQuestReward()\&quot;)&quot;);" />
+  </While>
+</PBProfile>

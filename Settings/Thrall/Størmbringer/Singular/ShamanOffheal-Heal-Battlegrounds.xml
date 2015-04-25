@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ShamanOffHealSettings>
+  <SavedToFile>True</SavedToFile>
+  <HealingRain>93</HealingRain>
+  <HealingSurge>85</HealingSurge>
+  <AncestralSwiftness>40</AncestralSwiftness>
+  <HealingStreamTotem>90</HealingStreamTotem>
+  <MinHealingRainCount>3</MinHealingRainCount>
+  <MinHealingTideCount>2</MinHealingTideCount>
+</ShamanOffHealSettings>

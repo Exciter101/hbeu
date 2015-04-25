@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutoDeclineSettings>
+  <DeclineGuildInvite>False</DeclineGuildInvite>
+  <DeclinePartyInvite>True</DeclinePartyInvite>
+  <DeclineDuelRequest>True</DeclineDuelRequest>
+  <DeclineTradeRequest>True</DeclineTradeRequest>
+  <UseTimer>True</UseTimer>
+</AutoDeclineSettings>

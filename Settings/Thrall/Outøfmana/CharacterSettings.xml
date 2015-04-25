@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CharacterSettings>
+  <SelectTalents>False</SelectTalents>
+  <ClassProfileName>Druid - Balance</ClassProfileName>
+  <AutoEquip>False</AutoEquip>
+  <AutoEquipBags>True</AutoEquipBags>
+  <AutoEquipWeapons>True</AutoEquipWeapons>
+  <AutoEquipArmor>True</AutoEquipArmor>
+  <AutoEquipBoEEpics>False</AutoEquipBoEEpics>
+  <WeaponStyle>Automatic</WeaponStyle>
+  <RollOnItems>False</RollOnItems>
+  <RollDisenchantWhenGreed>False</RollDisenchantWhenGreed>
+  <MaxBoEDisenchantQuality>Uncommon</MaxBoEDisenchantQuality>
+  <TicksPerSecond>35</TicksPerSecond>
+  <FoodAmount>0</FoodAmount>
+  <DrinkAmount>0</DrinkAmount>
+  <EnabledPlugins>
+    <Entry>LootFilter</Entry>
+    <Entry>Refreshment Detection</Entry>
+  </EnabledPlugins>
+  <RecentProfiles>
+    <Entry>1 [PB + AA] Fire Ammonite Lunker Fishing@@!@@C:\MP780EU\Default Profiles\H[PB + AA] Lunker Fishing Ver. 1.7.2\1 [PB + AA] Fire Ammonite Lunker Fishing.xml</Entry>
+    <Entry>4 [PB + AA] Blind Lake Lunker Fishing@@!@@C:\MP780EU\Default Profiles\H[PB + AA] Lunker Fishing Ver. 1.7.2\4 [PB + AA] Blind Lake Lunker Fishing.xml</Entry>
+    <Entry>FP to Exile's Rise, Shaowmoon Valley@@!@@C:/MP780EU/Default Profiles/H[PB + AA] Lunker Fishing Ver. 1.7.2/FP to Exile's Rise, Shadowmoon Valley.xml</Entry>
+    <Entry>3 [PB + AA] Blackwater Whiptail Lunker Fishing@@!@@C:\MP780EU\Default Profiles\H[PB + AA] Lunker Fishing Ver. 1.7.2\3 [PB + AA] Blackwater Whiptail Lunker Fishing.xml</Entry>
+    <Entry>FP to Terokkar Refuge, Talador@@!@@C:/MP780EU/Default Profiles/H[PB + AA] Lunker Fishing Ver. 1.7.2/FP to Terokkar Refuge, Talador.xml</Entry>
+  </RecentProfiles>
+  <OverrideProfileSettings>False</OverrideProfileSettings>
+  <SellGrey>True</SellGrey>
+  <SellWhite>True</SellWhite>
+  <SellGreen>True</SellGreen>
+  <SellBlue>False</SellBlue>
+  <SellPurple>False</SellPurple>
+  <MailGrey>False</MailGrey>
+  <MailWhite>False</MailWhite>
+  <MailGreen>False</MailGreen>
+  <MailBlue>True</MailBlue>
+  <MailPurple>True</MailPurple>
+  <SelectedBotName>GarrisonButler ICE</SelectedBotName>
+  <UseFlightPaths>True</UseFlightPaths>
+  <FindMountAutomatically>True</FindMountAutomatically>
+  <UseRandomMount>False</UseRandomMount>
+  <MailRecipient></MailRecipient>
+  <FoodName>122343</FoodName>
+  <DrinkName>122343</DrinkName>
+  <MountName>Nachtheuler der Garn</MountName>
+  <FlyingMountName>Pegasus</FlyingMountName>
+  <LootMobs>False</LootMobs>
+  <SkinMobs>False</SkinMobs>
+  <NinjaSkin>False</NinjaSkin>
+  <LootChests>True</LootChests>
+  <HarvestMinerals>False</HarvestMinerals>
+  <HarvestHerbs>False</HarvestHerbs>
+  <UseMount>True</UseMount>
+  <PullDistance>100</PullDistance>
+  <LootRadius>45</LootRadius>
+  <LastUsedPath>C:\MP780EU\Default Profiles\H[PB + AA] Lunker Fishing Ver. 1.7.2\1 [PB + AA] Fire Ammonite Lunker Fishing.xml</LastUsedPath>
+  <MountDistance>85</MountDistance>
+  <RessAtSpiritHealers>False</RessAtSpiritHealers>
+</CharacterSettings>
