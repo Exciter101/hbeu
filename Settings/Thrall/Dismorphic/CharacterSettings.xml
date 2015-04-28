@@ -1,27 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CharacterSettings>
-  <RessAtSpiritHealers>False</RessAtSpiritHealers>
-  <TicksPerSecond>20</TicksPerSecond>
-  <AutoEquip>False</AutoEquip>
-  <AutoEquipBoEEpics>False</AutoEquipBoEEpics>
   <SelectTalents>False</SelectTalents>
+  <ClassProfileName>Warlock - Destruction</ClassProfileName>
+  <AutoEquip>False</AutoEquip>
+  <AutoEquipBags>True</AutoEquipBags>
+  <AutoEquipWeapons>True</AutoEquipWeapons>
+  <AutoEquipArmor>True</AutoEquipArmor>
+  <AutoEquipBoEEpics>False</AutoEquipBoEEpics>
+  <WeaponStyle>Automatic</WeaponStyle>
   <RollOnItems>False</RollOnItems>
   <RollDisenchantWhenGreed>False</RollDisenchantWhenGreed>
-  <LootMobs>True</LootMobs>
-  <SkinMobs>False</SkinMobs>
-  <NinjaSkin>False</NinjaSkin>
-  <HarvestMinerals>False</HarvestMinerals>
-  <HarvestHerbs>False</HarvestHerbs>
-  <LootRadius>45</LootRadius>
-  <DrinkAmount>0</DrinkAmount>
+  <MaxBoEDisenchantQuality>Uncommon</MaxBoEDisenchantQuality>
+  <TicksPerSecond>20</TicksPerSecond>
   <FoodAmount>0</FoodAmount>
-  <MailRecipient></MailRecipient>
-  <FoodName>122345</FoodName>
-  <DrinkName>122345</DrinkName>
-  <MountName>Großer Braufestkodo</MountName>
-  <FlyingMountName>Sandsteindrache</FlyingMountName>
-  <UseRandomMount>False</UseRandomMount>
-  <MountDistance>60</MountDistance>
+  <DrinkAmount>0</DrinkAmount>
   <OverrideProfileSettings>False</OverrideProfileSettings>
   <SellGrey>True</SellGrey>
   <SellWhite>True</SellWhite>
@@ -33,17 +25,26 @@
   <MailGreen>False</MailGreen>
   <MailBlue>True</MailBlue>
   <MailPurple>True</MailPurple>
-  <ClassProfileName>Warlock - Destruction</ClassProfileName>
-  <AutoEquipBags>True</AutoEquipBags>
-  <AutoEquipWeapons>True</AutoEquipWeapons>
-  <AutoEquipArmor>True</AutoEquipArmor>
-  <WeaponStyle>Automatic</WeaponStyle>
-  <MaxBoEDisenchantQuality>Uncommon</MaxBoEDisenchantQuality>
-  <SelectedBotName>GarrisonButler ICE</SelectedBotName>
+  <IgnoreCheckpoints>False</IgnoreCheckpoints>
+  <SelectedBotName>Questing</SelectedBotName>
   <UseFlightPaths>True</UseFlightPaths>
   <FindMountAutomatically>True</FindMountAutomatically>
+  <UseRandomMount>False</UseRandomMount>
+  <MailRecipient></MailRecipient>
+  <FoodName>122345</FoodName>
+  <DrinkName>122345</DrinkName>
+  <MountName>Großer Braufestkodo</MountName>
+  <FlyingMountName>Sandsteindrache</FlyingMountName>
+  <LootMobs>True</LootMobs>
+  <SkinMobs>False</SkinMobs>
+  <NinjaSkin>False</NinjaSkin>
   <LootChests>True</LootChests>
+  <HarvestMinerals>False</HarvestMinerals>
+  <HarvestHerbs>False</HarvestHerbs>
   <UseMount>True</UseMount>
   <PullDistance>100</PullDistance>
-  <LastUsedPath>C:\MP782EU\Default Profiles\Questing Profile Pack\Auto Loader.xml</LastUsedPath>
+  <LootRadius>45</LootRadius>
+  <LastUsedPath>C:\Users\Exciter\Pictures\HB Aktuell\HBEU\Default Profiles\Questing Profile Pack\Auto Loader.xml</LastUsedPath>
+  <MountDistance>60</MountDistance>
+  <RessAtSpiritHealers>False</RessAtSpiritHealers>
 </CharacterSettings>
