@@ -1,0 +1,57 @@
+New features:
+--------------
+  * Core
+    - Protected Items updates: Secret of Draenor PROFESSION books (HB-2327)
+
+    - Protected Item Updates: Draenor Clan Orator Cane, Secret of Draenor PROFESSION books (HB-2345)
+
+  * GarrisonBuddy
+    - All profession daily cooldowns are now supported. Only the top 2 most useful ones are currently implemented. More may be added later if requested. (HB-2229)
+
+    - Opening quests for all buildings are now fully supported. Some may contain slight bugs, please report as necessary. (HB-2234)
+
+    - Current settings are now logged to the file to help with support, and quick debugging. (HB-2331)
+
+    - Added a new War Mill daily quest type 'Random' that will select armor or weapon randomly each day. (HB-2338)
+
+    - GSB Will now solve artifacts automatically to avoid getting stuck. (HB-2353)
+
+    - The UI for GSB has been redesigned in a few key places where it was confusing, and cluttered. (HB-2355)
+
+Api Changes:
+--------------
+    - Copied over the PB TradeSkill API into HB Core under the Styx.WoWInternals.TradeSkills namespace. This makes the PB Tradeskill API available for all HB builds. (HB-2307)
+
+    - Fixed string encoding on GarrisonBuilding.Name (HB-2334)
+
+Bug fixes:
+--------------
+  * ArchaeologyBuddy
+    - Should be properly moving to the digsites now (HB-2317)
+
+  * Core
+    - Fixed an issue that caused some flightpaths to not get picked up (HB-1880)
+
+    - GSB will try to move within 4 yards of a work order NPC before interacting. This resolves an edge case where the toon would be just barely outside of range. (HB-2284)
+
+    - Korean translations should really be working now (HB-2314)
+
+    - RaidBot now uses the overlay to notify the user (HB-2326)
+
+  * DungeonBuddy
+    - Dungeonbuddy will now wait some before attempting to re-enter a dungeon if max number of dungeons per hour has been reached. (HB-1835)
+
+    - Zul'farrak: ports out and back in to turn in quests at entrance (HB-2094)
+
+  * GarrisonBuddy
+    - The Trading Post UI has been reworked to be much easier to use, and less error prone (HB-2281)
+
+    - The Lost in Transition opening quest for the Storehouse has been fixed so that it will no longer assume it has completed the quest after trying to loot only a single box. (HB-2308)
+
+    - Fixed the Salvage Yard prequest. (HB-2313)
+
+    - Adjusted the time the bot will wait after using item tokens for followers. (HB-2352)
+
+  * GrindBuddy
+    - War Mill/Bunker UI options are now properly fixed. (HB-2337)
+

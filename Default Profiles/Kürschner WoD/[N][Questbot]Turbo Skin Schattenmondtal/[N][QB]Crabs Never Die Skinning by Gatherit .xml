@@ -1,0 +1,71 @@
+<HBProfile>
+<!-- This profile was made by Gatherit from gatherithb.com -->
+<Name>[N][QB]Crabs Never Die Skinning by Gatherit</Name>
+
+<MinDurability>0.4</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+
+<MinLevel>90</MinLevel>
+<MaxLevel>200</MaxLevel>
+
+<MailGrey>false</MailGrey>
+<MailWhite>false</MailWhite>
+<MailGreen>false</MailGreen>
+<MailBlue>false</MailBlue>
+<MailPurple>false</MailPurple>
+
+<SellGrey>true</SellGrey>
+<SellWhite>false</SellWhite>
+<SellGreen>true</SellGreen>
+<SellBlue>false</SellBlue>
+<SellPurple>false</SellPurple>
+
+<AvoidMobs>
+</AvoidMobs>
+
+<Vendors>
+<Vendor Name="Mokarg" Entry="76198" Type="Repair" X="1475.611" Y="-790.243" Z="38.12963" />
+</Vendors>
+
+<Mailboxes> 
+</Mailboxes>
+
+<Blackspots>
+</Blackspots>
+
+ <QuestOrder>
+ 
+ <CustomBehavior File="UserDialog" AllowBotStop="False" SoundCue="Exclamation" SoundCueInterval="5" ExpiryTime="30" ExpiryAction="InputEnabled_Continue" 
+						Text="Start this in Shadowmoon Valley. It can be used by both Horde and Alliance but the location is just outside the Alliance Garrison so Hordies beware.  Enjoy!" Title="NOTICE" />
+ 
+ <While Condition="true">
+ 
+	 <CustomBehavior File="RunCode" Code="Logging.Write(System.Windows.Media.Colors.DeepSkyBlue, &quot; [Gatherit]: Hang on, we are heading to the location to kill crabs, make sure you're ready to skin.  We will try to avoid combat until we get there.&quot;);"/>
+	 <CustomBehavior File="NoCombatMoveTo" X="2173.083" Y="277.9494" Z="0.5564743"  />
+   <CustomBehavior File="RunCode" Code="Logging.Write(System.Windows.Media.Colors.DeepSkyBlue, &quot; [Gatherit]: Here we are!  Good luck!  Make sure skinning and ninja skinning are enabled in settings!&quot;);"/>
+	 
+		   <SetGrindArea>
+			   <GrindArea>
+					<TargetMinLevel>90</TargetMinLevel>
+					<TargetMaxLevel>101</TargetMaxLevel>
+					<LootRadius>80</LootRadius>
+			   		<MaxDistance>75</MaxDistance>
+			   		<TargetElites>false</TargetElites>
+					<RandomizeHotspots>false</RandomizeHotspots>
+                    <MobIds>84341</MobIds>
+					<Factions></Factions>
+					<Hotspots>
+					 <Hotspot X="2173.083" Y="277.9494" Z="0.5564743" />
+					</Hotspots>
+			   </GrindArea>    
+			</SetGrindArea>
+			<GrindTo Condition="(Me.FreeBagSlots &lt;= 4) || (Me.LowestDurabilityPercent &lt; 0.40)" GoalText="Farming" />
+					<If Condition="(Me.FreeBagSlots &lt;= 4)" >
+					  <CustomBehavior File="Message" Text="Repairing Using our repair mount.  Do not interact with the bot." LogColor="Lime" />
+					  <CustomBehavior File="ForceSetVendor" DoSell="true" DoRepair="true" />			
+					</If>
+			<GrindUntil Nav="Fly" Condition="Me.Level >= 9999" />
+	</While>	
+	   
+</QuestOrder>
+</HBProfile>

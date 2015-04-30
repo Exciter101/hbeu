@@ -1,0 +1,42 @@
+<HBProfile>
+<Name>FP to Highpass, Gorgrond</Name>
+<MinDurability>0.4</MinDurability>
+<MinFreeBagSlots>1</MinFreeBagSlots>
+
+<MinLevel>1</MinLevel>
+<MaxLevel>101</MaxLevel>
+<Factions>99999</Factions>
+
+<MailGrey>false</MailGrey>
+<MailWhite>true</MailWhite>
+<MailGreen>true</MailGreen>
+<MailBlue>true</MailBlue>
+<MailPurple>true</MailPurple>
+
+<SellGrey>true</SellGrey>
+<SellWhite>false</SellWhite>
+<SellGreen>false</SellGreen>
+<SellBlue>false</SellBlue>
+<SellPurple>false</SellPurple>
+
+<Vendors>
+</Vendors>
+
+<Mailboxes>
+</Mailboxes>
+
+<!-- Quest Overrides -->
+<!-- End of Quest Overrides -->
+
+
+
+<QuestOrder>
+
+    <If Condition="Me.IsAlliance">
+    <CustomBehavior File="ForcedDismount" />
+    <RunTo X="6356.173" Y="747.1268" Z="116.6613" /> 
+    <CustomBehavior File="LoadProfile" ProfileName="2 [PB + AA] Jawless Skulker Lunker Fishing" />
+   </If>
+
+</QuestOrder> 
+</HBProfile>
